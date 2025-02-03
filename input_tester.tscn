@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca5bskkswc0oh"]
+
+[ext_resource type="Script" path="res://input_recorder.gd" id="1_up1km"]
+
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("text")]
+script = ExtResource("1_up1km")
+text = NodePath("TextEdit")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 474.0
+offset_top = 217.0
+offset_right = 680.0
+offset_bottom = 337.0
+text = "Test"
