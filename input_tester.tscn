@@ -2,11 +2,11 @@
 
 [ext_resource type="Script" path="res://input_recorder.gd" id="1_up1km"]
 
-[node name="Node2D" type="Node2D" node_paths=PackedStringArray("text")]
+[node name="Node2D" type="Node2D" node_paths=PackedStringArray("fps_counter")]
 script = ExtResource("1_up1km")
-text = NodePath("TextEdit")
+fps_counter = NodePath("FpsCounter")
 
-[node name="TextEdit" type="TextEdit" parent="."]
+[node name="FpsCounter" type="TextEdit" parent="."]
 offset_left = 474.0
 offset_top = 217.0
 offset_right = 680.0
